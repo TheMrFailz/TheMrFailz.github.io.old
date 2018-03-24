@@ -30,3 +30,7 @@ html::before {
     left: -4px;
     z-index: 10;
 }
+
+#forum {
+    background: var(--thread-bg);
+}
