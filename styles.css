@@ -4,7 +4,7 @@
     --accent-hover: #003a69;
     --accent-text: #b95959;
     --accent-secondary: #1cdcb0;
-    --thread-bg: rgba(0, 0, 0, 255);
+    --thread-bg: rgba(0, 0, 0, 0);
     --thread-bg-read: #1c1c1c;
     --thread-bg-sticky: rgba(255, 255, 255, 0.15);
     --thread-bg-sticky2: rgba(255, 125, 125, 0.15);
@@ -33,4 +33,34 @@ html::before {
 
 #forum {
     background: var(--thread-bg);
+}
+
+
+body {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+strong {
+    color: #ececec;
+}
+
+#header {
+    background: var(--thread-bg);
+    border: 1px solid var(--darker);
+}
+
+#header #toolbar {
+    border-color: var(--darker);
+}
+
+#header .navbar-main.navbar.is-dark .navbar-start:after {
+    color: var(--text-color);
 }
