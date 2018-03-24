@@ -1,3 +1,21 @@
+:root {
+    --accent: rgba(255, 255, 255, 0.1);
+    --accent-brighter: #3da8ff;
+    --accent-hover: #003a69;
+    --accent-text: #b95959;
+    --accent-secondary: #1cdcb0;
+    --thread-bg: rgba(0, 0, 0, 0);
+    --thread-bg-read: #1c1c1c;
+    --thread-bg-sticky: rgba(255, 255, 255, 0.15);
+    --thread-bg-sticky2: rgba(255, 125, 125, 0.15);
+    --thread-separator: #202020;
+    --text-color: #dadada;
+    --text-dim-color: #c5c5c5;
+    --gold: rgba(252, 190, 32, 1);
+    --darker: rgba(0, 0, 0, 0);
+    --bg-opacity: 0;
+}
+
 html::before {
     background-image: url(https://i.imgur.com/Or8QjsU.png);
 }
